@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "minLength": 1
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100,
+      "minLength": 1
+    },
+    "number": {
+      "type": "string",
+      "maxLength": 20,
+      "required": true,
+      "minLength": 1
+    },
+    "googleMapsUrl": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    }
+  }
+}
